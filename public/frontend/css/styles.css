@@ -1,0 +1,294 @@
+body{
+    
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #092a33;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    font-weight: 500;
+}
+.btn-login{
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+.btn-login-darker{
+    background-color: #092a33;
+    color: #fff;
+}
+.btn-login-darker:hover{
+    background-color: #092a45;
+    color: #fff;
+}
+
+.section-about {
+    margin-top: 10px;
+    
+}
+.section-about-heading{
+    margin-left: 140px;
+}  
+.section-about-heading h1 {
+    color: #092a33;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+  
+.section-about-heading p {
+    color: #092a45;
+    font-size: 22px;
+    
+}
+  
+.section-about-image img {
+    width: 900x;
+    height: 500px;
+    margin-left: 120px;
+    margin-right: 30px;
+}
+
+.btn-create-artikel{
+    background-color: #092a33;
+    color: #fff;
+    border-radius: 8px;
+}
+.btn-create-artikel:hover{
+    background-color: #092a45;
+    color: #fff;
+
+}
+
+.section-article-heading{
+    margin-top: 20px;
+}
+.section-article-heading h2{
+    color: #092a33;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.section-article-content .card-content{
+    padding: 30px 20px 35px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+
+.section-article-content .card-content .article-content img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.section-article-content .card-content .article-content h4{
+    color: #092a33;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.section-article-content .card-content .article-content p{
+    color: #092a33;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.section-contact{
+    margin-top: 50px;
+}
+
+.section-contact-heading h2{
+    color: #092a33;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.form-contact{
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.form-contact-class{
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 40px;    
+    width: 960px;
+    height: 650px;
+
+}
+
+.form-group{
+    margin: 20px 20px 20px 70px;
+}
+
+.form-name{
+    margin-top: 50px;
+}
+.form-label{
+    color: #092a45;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-control-article{
+    height: 50px;
+    width: 800px;
+    border-radius: 5px;
+}
+.form-message{
+    height: 150px;
+}
+.btn-form-contact{
+    width: 100px;
+    height: 50px;
+    background-color: #092a33;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.section-team-heading{
+    margin-top: 20px;
+}
+.section-team-heading h2{
+    color: #092a33;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.section-team-content .card-team{
+    padding: 30px 20px 35px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+.section-team-content .card-team .team-content img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.section-team-content .card-team .team-content h4{
+    color: #092a33;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.section-team-content .card-team .team-content p{
+    color: #092a33;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer{
+    background-color: #092a33;
+    
+}
+
+.text-footer-heading{
+    color: #fff;
+}
+.list-unstyled li a{
+    color: #fff;
+    text-decoration: none;
+}
+.text-footer-bottom{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content-article h2{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.content-image img{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+
+@media(max-width: 576px) {
+    .form-contact-class{
+        border: 1px solid #ddd;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 40px;    
+        width: 390px;
+        height: 650px;
+    
+    }
+    
+    .form-group{
+        margin-left: 40px;
+    }
+    
+    .form-name{
+        margin-top: 50px;
+    }
+    .form-label{
+        color: #092a45;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .form-control-article{
+        height: 50px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .form-message{
+        height: 150px;
+    }
+    .btn-form-contact{
+        width: 90px;
+        height: 40px;
+        background-color: #092a33;
+        color: #fff;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    
+    .section-about-heading{
+        margin-left: 60px;
+    }
+    
+    .section-about-heading h1 {
+        color: #092a33;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        
+    }
+      
+    .section-about-heading p {
+        color: #092a45;
+        font-size: 16px;
+        
+    }
+      
+    .section-about-image img {
+        width: 600x;
+        height: 200px;
+        margin-left: 60px;
+        margin-right: 30px;
+    }
+    
+}
