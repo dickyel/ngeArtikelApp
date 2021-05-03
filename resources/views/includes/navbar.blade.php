@@ -1,7 +1,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light p-4 px-md-4 mb-3 bg-nav border-bottom">
     <a href="#" class="navbar-brand">
-        <img src="" alt="">
+        <img src="{{ url('frontend/images/logo.png')}}" alt="">
     </a>
     
     <button 
@@ -25,25 +25,19 @@
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link px-md-4">
+                <a href="#about" class="nav-link px-md-4">
                     About
                 </a>
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link px-md-4">
+                <a href="#artikel" class="nav-link px-md-4">
                     Artikel
                 </a>
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link px-md-4">
-                    Contact
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link px-md-4 active">
+                <a href="#team" class="nav-link px-md-4">
                     Teams
                 </a>
             </li>

@@ -12,7 +12,7 @@
 */
 
 Route::get('/','HomeController@index')->name('home');
-Route::get('/detail','DetailController@index')->name('detail');
+Route::get('/article/{slug}','ArticleController@index')->name('article');
 
 
 // untuk admin
@@ -22,7 +22,10 @@ Route::prefix('admin')
     ->group(function(){
         Route::get('/', 'DashboardController@index')
             ->name('dashboard');
+        Route::resource('article-package','ArticlePackageController');
+        
     });
+    
 
 Auth::routes(['verify' => true]);
 

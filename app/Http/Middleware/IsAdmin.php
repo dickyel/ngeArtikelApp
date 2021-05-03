@@ -19,8 +19,12 @@ class isAdmin
         if(Auth::user() && Auth::user()->roles == 'ADMIN')
         {
             return $next ($request);
+            return redirect('/');
+        }
+        else{
+            return $next($request);
+            return redirect('article-package.create');
         }
         
-        return redirect('/');
     }
 }

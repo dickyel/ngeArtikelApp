@@ -34,7 +34,7 @@
             </div>
             <!-- End of Main Content -->
 
-            @include('includes.footer')
+            @include('includes.admin.footer')
 
         </div>
         <!-- End of Content Wrapper -->

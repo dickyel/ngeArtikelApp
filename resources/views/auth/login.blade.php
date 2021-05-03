@@ -57,6 +57,14 @@
                                     {{ __('Login') }}
                                 </button>
 
+                                <form class="form-inline d-sm-block d-md-none">
+                                    <button class="btn btn-primary my-2 my-sm-0" type="button" onclick="event.preventDefault(); location.href='{{ url('register') }}'">Register</button>
+                                </form>
+
+                                
+
+                                
+
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}

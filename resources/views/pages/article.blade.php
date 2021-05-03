@@ -1,4 +1,4 @@
-@extends('layouts.detail')
+@extends('layouts.article')
 
 @section('title')
     ngeArtikel Detail
@@ -8,12 +8,14 @@
     
 <div class="container">
     <div class="content-article">
-        <h2 class="text-center">Welcome to artikelapp.com!</h2>
+        <h2 class="text-center">{{ $item->title }}</h2>
         <div class="content-image text-center">
-            <img src="images/123.jpg" alt="">
+            <img src="{{ Storage::url($item->image)}}" width="500px" height="900px">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore voluptatum adipisci nulla corporis molestias illum, amet debitis corrupti dolorum voluptates vitae sapiente facilis, eligendi libero placeat quos rerum consequatur. Molestiae porro sapiente dicta consequuntur sit sed minus ipsam expedita rem voluptate, perferendis neque earum provident quisquam nostrum quae temporibus eos fuga impedit aliquid nisi repudiandae ea saepe? Expedita illo corporis ipsum labore fugit sed accusantium aut provident. Explicabo, adipisci. Enim harum quasi animi aperiam natus eligendi quod excepturi beatae. Inventore quasi velit vitae illum ut nihil, in minus voluptate cum perspiciatis repudiandae, aperiam odit necessitatibus fuga! Corrupti in porro perferendis!</p>
+        <div class="container">
+        {!! $item->material !!}
+        </div>
     </div>
-    <p>Dipublikasikan oleh : </p>
+    <p>Dipublikasikan oleh : {{ $item->author }}</p>
 </div>
 @endsection

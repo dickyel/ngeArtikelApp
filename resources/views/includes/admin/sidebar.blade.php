@@ -15,25 +15,20 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('dashboard') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
 
     <!-- Divider -->
-    <hr class="sidebar-divider">
+    <hr class="sidebar-divider">    
 
-    
-
-    <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-            aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-users"></i>
-            <span>Data Artikel</span>
-        </a>
-       
+    <li class="nav-item active">
+        <a class="nav-link" href="{{ route('article-package.index') }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Data Artikel</span></a>
     </li>
+    
 
     <!-- Divider -->
     <hr class="sidebar-divider">
